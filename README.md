@@ -42,7 +42,7 @@ Execute this script to associate each taxid with their corresponding full taxono
 
 Used this script to format the taxonomy. It uses the "Taxid_Taxonomy.txt" file as input, removes the taxids, and adds the appropriate taxonomic rank prefixes. The output generated is the "TaxonomyFile.txt".
 
-- **Obtain the "Filesfna_Taxnm.txt"
+- **Obtain the "Filesfna_Taxnm.txt"**
 
 To associate each taxonomy with its corresponding genome file, use the following command:
 
