@@ -50,3 +50,7 @@ To associate each taxonomy with its corresponding genome file, use the following
     
 ### 5) Obtain the MIMt database 
 Use the script _get-txnm_fastaseq.pl_ to gather all the information in the new database. This script needs three inputs: 1) the output files from Infernal (.tbl), 2) the genome files (.fna), and 3) the "Filesfna_Taxnm.txt" file. From the Infernal outputs, the script gets the exact coordinates for the 16S rRNAs present in each genome, extracts the corresponding FASTA sequences from the original genome file, and assigns their respective taxonomy using the Filesfna_Taxnm.txt file. Use a shell script to execute it on all files. The resultant output corresponds to the new reference 16S rRNA database, named as MIMt.
+
+
+
+**NOTE:** We created another version of MIMt ("MIMt_RNAmmer.fna") using the RNAmmer software for inferring the 16S rRNA sequences. However, due to its lower resolution, this database was not chosen as the final one.
